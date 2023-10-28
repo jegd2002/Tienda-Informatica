@@ -1,0 +1,15 @@
+###
+POST http://localhost:3100/api/sale HTTP/1.1
+Content-Type: application/json
+
+{
+    "fecha":"14-11-2022",
+    "comprador":[{"_id":"6372ec92d2cbe9e137b52c77"}]
+    
+}
+
+###
+GET http://localhost:3100/api/sale HTTP/1.1
+
+###
+GET http://localhost:3100/api/user/6372e79722fb46a71fcb01d7 HTTP/1.1

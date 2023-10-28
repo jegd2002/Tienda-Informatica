@@ -1,0 +1,32 @@
+###
+POST http://localhost:3100/api/cart/6372d84fd870c3b873812624 HTTP/1.1
+Content-Type: application/json
+
+{
+    "producto":[{"_id":"63712ad994e289e5ff4c1bbd"},
+    {"_id":"63712d0d182328df66d3953f"}
+    ]
+}
+
+### 
+GET http://localhost:3100/api/cart HTTP/1.
+
+
+###
+GET http://localhost:3100/api/cart/6372d84fd870c3b873812624 HTTP/1.1
+
+
+###
+DELETE  http://localhost:3100/api/cart/63712a665f34e7dfa1ebb862 HTTP/1.1
+
+###
+PUT http://localhost:3100/api/product/63712ad994e289e5ff4c1bbd HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"CPU",
+    "precio": 3000000,
+    "cantidad":150,
+    "imagen": "imagen del producto",
+    "descripcion": "Super CPU ilimitada"
+}
